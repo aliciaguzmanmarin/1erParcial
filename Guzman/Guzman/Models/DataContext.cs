@@ -12,5 +12,7 @@ namespace Guzman.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Guzman.Models.Clown> Clowns { get; set; }
     }
 }
