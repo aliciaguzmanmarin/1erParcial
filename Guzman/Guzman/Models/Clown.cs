@@ -18,7 +18,7 @@ namespace Guzman.Models
         public int ClownID { get; set; }
 
         [Required]
-        [StringLenght(24, MinimunLenght = 2, )]
+        [StringLength(24, MinimumLength = 2 )]
         [Display(Description = "Nombre Completo")]
         public string NickName { get; set; }
 
